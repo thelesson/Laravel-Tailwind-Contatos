@@ -29,7 +29,7 @@ Pilha Laravel + JetStream + Tailwind.
  - Execute os comandos: sudo npm install e sudo npm run dev  para compilar os arquivos frontend
  - Em alguns casos pode ser necessário regenerar o link storage na pasta pública. Delete a pasta /storage localizado em /public e rode o comando: php artisan storage:link
 
-##  Funcionalidades
+##  Funcionalidades 
 
  - Realizar o crud básico de contatos. 
  - Realizar buscas de contatos por nome, ultimo nome, telefone ou email, utlizando o Livewire.
