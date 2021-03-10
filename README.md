@@ -25,6 +25,7 @@ Pilha Laravel + JetStream + Tailwind.
  - Insira suas credenciais no arquivo .env
  - Realize o migrate utilizando o comando: php artisan migrate ou importe o arquivo base_contato.sql caso para a sua base de dados recém criada, caso queira utilizar o Voyager Laravel. 
  - Certifique-se que possui acesso para escrita na pasta /storage
+ - Execute os comandos: sudo npm install e sudo npm run dev  para compilar os arquivos frontend
  - Em alguns casos pode ser necessário regenerar o link storage na pasta pública. Delete a pasta /storage localizado em /public e rode o comando: php artisan storage:link
 
 ##  Funcionalidades
